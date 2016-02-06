@@ -1,10 +1,3 @@
-# Author
-![@Rafase282](https://avatars0.githubusercontent.com/Rafase282?&s=128)
-
-Created by Rafase282
-
-[Github](https://github.com/Rafase282) | [FreeCodeCamp](http://www.freecodecamp.com/rafase282) | [CodePen](http://codepen.io/Rafase282/) | [LinkedIn](https://www.linkedin.com/in/rafase282) | [Blog/Site](https://rafase282.wordpress.com/) | [E-Mail](mailto:rafase282@gmail.com)
-
 # FreeCodeCamp API: Image Search Abstraction Layer
 ## User stories:
 1. I can get the image URLs, alt text and page urls for a set of images relating to a given search string.
@@ -14,8 +7,7 @@ Created by Rafase282
 ## Example query usage:
 
 ```text
-https://img-sal.herokuapp.com/lolcats%20funny?offset=10
-https://img-sal.herokuapp.com/latest
+https://rafael-lin-image-search.herokuapp.com/lolcats%20funny?offset=10
 ```
 
 ## Example query output:
@@ -74,38 +66,3 @@ https://img-sal.herokuapp.com/latest
 }]
 ```
 
-## Example latest output:
-
-```js
-[{
-  "term": "lolcats funny",
-  "when": "2016-01-23T04:21:19.441Z"
-}, {
-  "term": "lolcats funny",
-  "when": "2016-01-23T04:20:26.237Z"
-}, {
-  "term": "lolcats funny",
-  "when": "2016-01-23T02:06:32.898Z"
-}, {
-  "term": "lolcats sad",
-  "when": "2016-01-23T01:29:55.894Z"
-}, {
-  "term": "lolcats funny",
-  "when": "2016-01-23T01:29:45.727Z"
-}, {
-  "term": "lolcats funny",
-  "when": "2016-01-23T00:43:49.365Z"
-}, {
-  "term": "lolcats funny",
-  "when": "2016-01-22T23:47:24.660Z"
-}, {
-  "term": "lolcats funny",
-  "when": "2016-01-22T23:43:12.142Z"
-}, {
-  "term": "lolcats funny",
-  "when": "2016-01-22T23:35:59.976Z"
-}, {
-  "term": "lolcats funny",
-  "when": "2016-01-22T23:13:07.220Z"
-}]
-```
